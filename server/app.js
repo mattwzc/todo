@@ -5,7 +5,7 @@ const morgan = require('morgan')
 const mongoose = require('mongoose');
 
 //connect to db
-var mongodbUri ="mongodb+srv://todo:Todo123321@todo-awncc.mongodb.net/test?retryWrites=true&w=majority";
+var mongodbUri ="mongodb+srv://:@todo-awncc.mongodb.net/test?retryWrites=true&w=majority";
 mongoose.connect(mongodbUri, {
   useNewUrlParser: true,
   auth: {
