@@ -9,8 +9,8 @@ var mongodbUri ="mongodb+srv://:@todo-awncc.mongodb.net/test?retryWrites=true&w=
 mongoose.connect(mongodbUri, {
   useNewUrlParser: true,
   auth: {
-    user: 'todo',
-    password: 'Todo123321'
+    user: '',
+    password: ''
   }
 })
 var conn = mongoose.connection;    
